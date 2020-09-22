@@ -6,7 +6,7 @@ export const initialState = {
 };
 
 const reducer = (state, action) => {
-  console.log(action);
+  console.log('this is action being dispatched',action);
 
   switch (action.type) {
     case 'SET_USER':
