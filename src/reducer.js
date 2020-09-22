@@ -5,7 +5,7 @@ export const initialState = {
   item: null,
   //REMOVE AFTER FINISH DEVELOPING AND CHANGE BACK TO NULL;
   token:
-    'BQB-inqRlKY2QVx7KSF_o6ZzIaYRBPs2zE8GAIMiEyFb_0UNV8D89cy-L9jVltcdPuzJrTgnbXwvM1fVK5IZxnyRpi-GJx0AmId7wmjqHLqMsZ42PhES5fNelXzk6rOm1NVqulH8vu7rj3GgFcH9vp7DJdM0',
+    'BQBmAvMq7JFzuQCF2a-ulNs0l0cFl28PrbnM_Ju4z9yqK-4WCuhNgoKUIgC-DAg1Jc68bxKPCHXrACAnCXerREZNR_lUv7VnWaXDCI9odif6Ym4hXlfDLzZf7JKZmPTsgqpLmB3VxS-nWCdp_luwSTk2Q-xU',
 };
 
 const reducer = (state, action) => {

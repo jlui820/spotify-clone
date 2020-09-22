@@ -33,10 +33,11 @@ function App() {
       });
     }
   }, []);
+  console.log('token === ', token)
 
   return (
     <div className="app">
-      { token ? <Player /> : <Login /> }
+      { token ? <Player spotify={spotify} /> : <Login /> }
     </div>
   );
 }
