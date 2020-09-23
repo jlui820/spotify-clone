@@ -36,8 +36,8 @@ function App() {
         dispatch({
           type: 'SET_PLAYLISTS',
           playlists,
-        })
-      })
+        });
+      });
     }
   }, []);
 
